@@ -1,6 +1,6 @@
 export default (database, DataTypes) => {
   const DiningHall = database.define(
-    "Dining_Hall",
+    'Dining_Hall',
     {
       hall_id: {
         type: DataTypes.INTEGER,
